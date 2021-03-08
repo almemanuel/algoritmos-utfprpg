@@ -6,19 +6,19 @@
 // executará a média aritmética entre dois numeros
 int main () {
 	// declarações de variáveis
-	float num1, num2, media;
+	float number1, number2, average;
 
-	// entrada de num1
+	// entrada de number1
 	printf("Digite o primeiro numero: ");
-	scanf("%f", &num1);
+	scanf("%f", &number1);
 
-	// entrada de num2
+	// entrada de number2
 	printf("Digite o segundo numero: ");
-	scanf("%f", &num2);
+	scanf("%f", &number2);
 
 	// calculo e exibição da media
-	media = (num1 + num2) / 2;
-	printf("A media aritmetica entre os valores informados é %.2f", media);
+	average = (number1 + number2) / 2;
+	printf("A media aritmetica entre os valores informados é %.2f", average);
 }
 
 // RM 11:36

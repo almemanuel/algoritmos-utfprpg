@@ -11,7 +11,7 @@ Faça um programa que:
 
 int main () {
 	// l -> largura; c -> comprimento; a -> area
-	float l, c, a, potenciaWatts;
+	float l, c, a, watts;
 
 	// entrada de dados
 	printf("Digite a largura do comodo (em metros): ");
@@ -23,10 +23,10 @@ int main () {
 	// processamento
 	// a = l * c; potencia = a * 18. Como o enunciado pede a exibição da area, o calculo da potência será feito de forma simples
 	a = l * c;
-	potenciaWatts = a * 18;
+	watts = a * 18;
 
 	// saída de dados
-	printf("Para um comodo de %.2f m2 ficar adequadamente iluminado, a potencia elétrica deve ser de %.3f W", a, potenciaWatts);
+	printf("Para um comodo de %.2f m2 ficar adequadamente iluminado, a potencia elétrica deve ser de %.3f W", a, watts);
 }
 
 // RM 11:36

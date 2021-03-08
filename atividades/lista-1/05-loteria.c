@@ -9,23 +9,23 @@ O programa deve imprimir quanto cada um dos amigos receberá caso sejam ganhador
 #include <stdio.h>
 
 int main() {
-	float apostaPrimeiro, apostaSegundo, apostaTotal, premioTotal, premioPrimeiro, premioSegundo;
-	
+	float betFirst, betSecond, totalBet, totalAward, awardFirst, awardSecond;
+
 	// entrada de dados:
 	printf("Valor apostado pelo primeiro amigo: R$ ");
-	scanf("%f", &apostaPrimeiro);
+	scanf("%f", &betFirst);
 	printf("Valor apostado pelo segundo amigo: R$ ");
-	scanf("%f", &apostaSegundo);
-	printf("Valor do premio: R$ "); 
-	scanf("%f", &premioTotal);
+	scanf("%f", &betSecond);
+	printf("Valor do premio: R$ ");
+	scanf("%f", &totalAward);
 
-	// apostaTotal ajudará a encontrar a porcentagem correspondente a cada um
-	apostaTotal = apostaPrimeiro + apostaSegundo;
+	// totalBet ajudará a encontrar a porcentagem correspondente a cada um
+	totalBet = betFirst + betSecond;
 	// com a Regra de Três é possível dividir o prêmio proporcionalmente
-	premioPrimeiro = (apostaPrimeiro * premioTotal) / apostaTotal;
-	premioSegundo = (apostaSegundo * premioTotal) / apostaTotal;
+	awardFirst = (betFirst * totalAward) / totalBet;
+	awardSecond = (betSecond * totalAward) / totalBet;
 
 	// saída de dados
-	printf("Caso ganhem na loteria, o primeiro amigo receberá R$ %.2f, e o segundo, R$ %.2f", premioPrimeiro, premioSegundo);
+	printf("Caso ganhem na loteria, o primeiro amigo receberá R$ %.2f, e o segundo, R$ %.2f", awardFirst, awardSecond);
 }
 // RM 11:36

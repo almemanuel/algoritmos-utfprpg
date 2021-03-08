@@ -7,17 +7,17 @@ Sabendo que 1 gal equivale a 4,54609 L, faça um programa que converta uma deter
 
 int main () {
 	// gal para galão imperial e galParaL armazenará gal convertido em L
-	float gal, galParaL; 
+	float gal, galToL; 
 	
 	// entrada de dados em gal
 	printf("Digite o volume em gal (galões imperiais): ");
 	scanf("%f", &gal);
 	
 	// conversão. obs: 1 gal = 4.54609 L
-	galParaL = gal * 4.54609;
+	galToL = gal * 4.54609;
 
 	// saída de dados
-	printf("%.2f gal equivale a %.2f L.", gal, galParaL);
+	printf("%.2f gal equivale a %.2f L.", gal, galToL);
 }
 
 // RM 11:36

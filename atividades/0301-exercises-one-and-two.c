@@ -16,7 +16,6 @@ int main() { // principal subrotina do algoritmo
 	printf("\nProgramacao"); // também imprime na linha de baixo
 	printf("\nEstruturada"); // aqui também
 	printf("\n2020-2"); // e aqui também
-	//return 0; // retorna 0 para esta subrotina
 }
 
 // RM 11:36

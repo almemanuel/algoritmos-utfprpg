@@ -22,7 +22,7 @@ int main() {
 
     // processamento e saida de dados
     // para a analise ser possivel, os intervalos devem ser validos
-    if (a < b && c < d) {
+    if (a < b && c < d && a < c) {
         // verificar dentro de qual(is) intervalo(o) number está
         if ((number > a && number < b) && (number > c && number < d)) {
             printf("%.2f pertence aos dois intervalos.", number);
